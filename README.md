@@ -1,6 +1,6 @@
 # padded-modeline 
 
-It's a *very* simple minor mode that just adds padding to your modeline, it
+It's a **very simple** minor mode that just adds padding to your modeline, it
 default to `4` pixels but you can change it via `padded-modeline-padding`.
 
 ## Usage
