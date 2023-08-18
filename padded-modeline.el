@@ -19,10 +19,16 @@
 ;; Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
 ;; MA 02111-1307, USA.
 
+;;; Commentary:
+
+;; An Emacs modeline
+
 ;;; Code:
 
 (defcustom padded-modeline-padding 4
-  :type 'integer)
+  "Padding value"
+  :type 'integer
+  :group 'padded-modeline)
 
 (defun padded-modeline-auto-set-modeline (padding)
     (set-face-attribute 'mode-line nil :box `(:line-width ,padding :color ,(face-attribute 'mode-line :background)))
