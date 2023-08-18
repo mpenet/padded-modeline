@@ -36,7 +36,7 @@
     (set-face-attribute 'mode-line-active nil :box `(:line-width ,padding :color ,(face-attribute 'mode-line-active :background nil 'mode-line))))
 
 (define-minor-mode padded-modeline-mode
-  "Toggle `padded-modeline' on or off."
+  "Enables padded-modeline"
   :group 'padded-modeline
   :global t
   (padded-modeline-auto-set-modeline padded-modeline-padding))
